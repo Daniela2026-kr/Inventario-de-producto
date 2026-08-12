@@ -76,9 +76,9 @@ while True:
             print(f"TOTAL A PAGAR: ${total:.2f}")
 
             # Preguntar si desea finalizar la compra
-            confirmar = input("\n¿Desea realizar el pago ahora? (s/n): ").strip().lower()
+            confirmar = input("\n¿Desea realizar el pago ahora? (si/no): ").strip().lower()
 
-            if confirmar == 's':
+            if confirmar == 'si':
                 print("¡Pago procesado con éxito! Gracias por su compra.")
                 carrito.clear()  # Vaciar el carrito tras pagar
             else:
